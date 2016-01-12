@@ -1,0 +1,424 @@
+  html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Lato;
+  color: white;
+  background-color: #729f98;
+  
+}
+
+.cornerImage {
+  height: 30px;
+  margin: 10px 15px 10px 15px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+
+/* navbar styling */
+
+.navbar-default {
+  background: #283018;
+  border-width: 0px 0px 7px 0px;
+  border-color: #729f98;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #f0eceb;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #729f98;
+}
+
+.navbar-default .navbar-brand {
+  color: #f0eceb;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: #729f98;
+  background-color: transparent;
+}
+
+
+/* title screen  */
+
+#mainScreen {
+
+  padding-top: 50px;
+  
+  background-color: #729f98;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/444407/black-linen.png");
+
+  height: 1000px;
+  width: 100%;
+  padding-bottom: 50%;
+}
+
+#mainScreen .container {
+  padding-top: 5%;
+  margin-top: 7%;
+  /*   margin-left: 20%; */
+  padding-bottom: 5%;
+  background: #f0eceb;
+ -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+  padding-left: 0%;
+  padding-right: 6%;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .75);
+  font-size: 5em;
+  font-weight: 900;
+  text-align: center;
+  color: #283018;
+  border-radius: 10px;
+}
+
+.webDesign {
+ 
+  padding-left: 15%;
+  margin-left: 10%;
+  padding-right: 6px;
+  border-top: 3px solid #283018;
+  border-right: 3px solid #283018;
+  color: #aa863a;
+}
+
+h2 {
+  text-align: center;
+  color: #283018;
+  font-size: 3em;
+  max-width: 1140px;
+  margin-bottom: 100px;
+}
+
+ul {
+  text-align: center;
+}
+
+
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  width: 0%;
+  padding: 35px 0;
+ 
+  background-color: #283018;
+}
+.trans--grow {
+  -webkit-transition: all 2s ease-in-out;
+  /* For Safari 3.1 to 6.0 */
+  
+  transition: all 2s ease-in-out;
+  width: 0;
+}
+.grow {
+  width: 75%;
+  max-width: 1140px;
+  padding: .5vh 0;
+  background: black;
+  border-top: 0px;
+  background-color: #283018;
+}
+.btncust {
+  color: #E9ECEB;
+  font-weight: 900;
+  border: 0px;
+}
+.btncust:hover {
+  color: #E9ECEB;
+  -webkit-box-shadow: inset 0px 0px 116px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 0px 116px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 116px 10px rgba(0, 0, 0, 0.5);
+}
+.twitter {
+  background: #55ACEE;
+}
+.facebook {
+  background: #405D9B;
+}
+.github {
+  background: #4B78C0;
+}
+.linkedin {
+  background: #1985BC;
+}
+.fcc {
+  background: #4A2B0F;
+}
+
+/* portfolio page */
+#portfolio {
+  padding: 100px 5% 100px 5%;
+  
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/444407/always-grey.png");
+  background-color: #aa863a;
+  text-align: center;
+  
+/*   height: 1000px; */
+}
+h3 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .75);
+  font-size: 10em;
+  max-width: 1140px;
+  font-weight: 900;
+  color: #283018;
+  margin: 50px auto 5px auto;
+}
+#portfolio > p {
+  font-size: 1.3em;
+  color: #283018;
+}
+.project {
+  margin-top: 100px;
+  
+}
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+.caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(114, 159, 152, 0.90);
+  width: 100%;
+  height: 100%;
+  display: none;
+  text-align: center;
+  color: #283018 !important;
+  z-index: 2;
+}
+
+h4 {
+  padding-top: 15%;
+  font-size: 3em;
+  font-weight: 900;
+}
+.caption > p {
+  font-size: 1.5em;
+}
+
+.btnproj {
+  margin-top: 10px;
+  background: #f0eceb;
+}
+.projdesc {
+  font-size: 2.5em;
+}
+
+
+ #biography {
+ background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/444407/black-linen.png");
+
+} 
+h5 {
+  text-align: center;
+  padding-right: 10%;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .75);
+  font-size: 2.5em;
+  max-width: 1140px;
+  font-weight: 900;
+  color: #283018;
+}
+.aboutMeDesign {
+  color: #aa863a;
+  padding-left: 20%;
+  margin-left: 10%;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  padding-right: 6px;
+}
+.trans--aboutMeBar {
+  -webkit-transition: all 2s ease-in-out;
+  /* For Safari 3.1 to 6.0 */
+  
+  transition: all 2s ease-in-out;
+  width: 0;
+}
+
+.aboutMe {
+  color: #283018;
+  font-size: 1.3em;
+  font-weight: 700;
+  
+}
+.bioBox {
+  margin-bottom: 150px;
+  margin-top: 150px;
+  background: #f0eceb;
+-webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.ourPic{
+  margin-left: -60px;
+  margin-top: 170px;
+  max-width:100%;
+  max-height:100%;
+   -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+ 
+
+#contact {
+   
+  background: #283018;
+}
+.contactInfo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+background-color: #729f98;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  float: left;
+  
+}
+
+.contactBox {
+  height: 300px;
+  background: #283018;
+  background: #f0eceb;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+p>a{
+  color:#283018;
+}
+p>a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+.bottomImage {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 30px 0px 10px 0;
+  border-radius: 10px;
+
+}
+
+@media(max-width:1330px) {
+  .ourPic {
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+  }
+  .bioBox { 
+  margin-bottom: 15px;
+  }
+    .bottomImage, .contactInfo{
+     float:initial;
+  }
+  .bottomImage {
+    margin-left: 10px;
+  }
+  .contactInfo {
+    text-align: center;
+  } 
+  
+  h1 {
+    padding-left: 5%;
+  }
+  #biography,
+  #portfolio, #mainScreen {
+    height: initial;
+  }
+  
+  .caption > P {
+    font-size: 1em;
+  }
+  
+  h4 {
+    padding-top: 10%;
+    font-size: 1.5em;
+  }
+  
+  .projdesc {
+    font-size: 1.5em;
+  }
+}
+
+
+
+@media(max-width:762px) {
+  .ourPic{
+    margin-left: 0px;
+  }
+   #mainScreen {
+    padding-bottom: 25%;
+  }
+  
+  h1 {
+    margin-top: 15%;
+    font-size: 2.3em;
+  }
+  
+  h2 {
+    font-size: 1em;
+    margin-bottom: 50px;
+  }
+  
+  h3 {
+    font-size: 3em;
+  }
+  h5 {
+    margin-top: 15px;
+    font-size: 2.3em;
+  }
+  
+  .aboutMe {
+    
+    font-size: 1em;
+  }
+  
+  .webDesign {
+    margin-left: 8%;
+    padding-left: 20%;
+    font-size: .85em;
+  }
+  
+  #mainScreen .container {
+    margin-top: 12%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+
+  
+
+  
+  .btncust {
+    margin-top: 15px;
+  }
+}
+
+
+
+  @media(max-width:480px) {
+    h5 {
+      font-size: 1.6em;
+    }
+    h1{
+      font-size: 1.5em;
+    }
+    
+    p>a{
+  color:#f0eceb;
+      font-size: .8em;
+}
+  }
