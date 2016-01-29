@@ -156,7 +156,9 @@ function onKeyDown(e) {
     myCircle = new Path.Circle(point, 500);
     myCircle.fillColor = new Color(getRandom(0, 1), getRandom(0, 1), getRandom(0, 1), 1);
     circles.push(myCircle);
+    if (keyData[e.key]!=undefined){
     keyData[e.key].sound.play();
+    }
 }
 
 function onFrame(e) {
