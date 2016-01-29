@@ -140,12 +140,24 @@ var keyData = {
 
 
 };
-setTimeout(function(){$('h1').fadeIn(1000)},500);
-setTimeout(function(){$('h1').fadeOut(1000)},3500);
-setTimeout(function(){$('h2').fadeIn(1000)},4500);
-setTimeout(function(){$('h2').fadeOut(1000)},7500);
-setTimeout(function(){$('h3').fadeIn(1000)},8500);
-setTimeout(function(){$('h3').fadeOut(1000)},11500);
+setTimeout(function () {
+    $('h1').fadeIn(1000)
+}, 500);
+setTimeout(function () {
+    $('h1').fadeOut(1000)
+}, 3500);
+setTimeout(function () {
+    $('h2').fadeIn(1000)
+}, 4500);
+setTimeout(function () {
+    $('h2').fadeOut(1000)
+}, 7500);
+setTimeout(function () {
+    $('h3').fadeIn(1000)
+}, 8500);
+setTimeout(function () {
+    $('h3').fadeOut(1000)
+}, 11500);
 
 
 function onKeyDown(e) {
@@ -156,8 +168,8 @@ function onKeyDown(e) {
     myCircle = new Path.Circle(point, 500);
     myCircle.fillColor = new Color(getRandom(0, 1), getRandom(0, 1), getRandom(0, 1), 1);
     circles.push(myCircle);
-    if (keyData[e.key]!=undefined){
-    keyData[e.key].sound.play();
+    if (keyData[e.key] != undefined) {
+        keyData[e.key].sound.play();
     }
 }
 
@@ -165,8 +177,8 @@ function onFrame(e) {
     for (i = 0; i < circles.length; i++) {
         circles[i].fillColor.hue += 1;
         circles[i].scale(.90);
-        if (circles[i].bounds.height<.0001){
-            circles.splice(i,1);
+        if (circles[i].bounds.height < .0001) {
+            circles.splice(i, 1);
         }
     }
 }

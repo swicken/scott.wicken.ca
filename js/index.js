@@ -1,10 +1,10 @@
-$(document).ready(function(){
-  setTimeout(function(){
-    $('.trans--grow').addClass('grow');
-}, 275);
+$(document).ready(function () {
+    setTimeout(function () {
+        $('.trans--grow').addClass('grow');
+    }, 275);
 
 
-  $('a[href^="#"]').on('click',function (e) {
+    $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
 
         var target = this.hash;
