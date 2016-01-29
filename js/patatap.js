@@ -157,8 +157,6 @@ function onKeyDown(e) {
     myCircle.fillColor = new Color(getRandom(0, 1), getRandom(0, 1), getRandom(0, 1), 1);
     circles.push(myCircle);
     keyData[e.key].sound.play();
-    console.log(circles);
-    console.log(circles[0].bounds.height);
 }
 
 function onFrame(e) {
