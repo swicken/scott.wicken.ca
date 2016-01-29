@@ -1,0 +1,23 @@
+#myCanvas {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+body{
+    background:black;
+    color: white;
+}
+h1, h2, h3 {
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+    text-align:center;
+    z-index: 1;
+    color: white;
+    display: none;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: '700';
+    text-transform: uppercase;
+}
